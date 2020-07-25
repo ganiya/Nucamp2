@@ -1,0 +1,378 @@
+body {
+  font-family: "Varela", sans-serif;
+}
+
+h1, h2, h3, h5 {
+  font-family: "Lora";
+  font-weight: bold;
+
+}
+
+.bg {
+  background-image: url("/img/dccity.jpg");
+
+  height: auto;
+  width: auto;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card, .column {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:100% ;
+  transition: .7s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+.card:hover .middle {
+  opacity: 1;
+}
+.column:hover .image {
+  opacity: 0.3;
+}
+.column:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color:pink;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+h1 {font-size: 30pt;
+   text-align: center;
+  background-color:palevioletred;
+
+}
+p { text-align: center;
+  color: black;
+  font-family: "Lora";
+    font-size: 40pt; 
+}
+#Buttons{
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+header h1{ 
+  font-size:12pt;
+  background-color: palevioletred;
+
+}
+#SignUp{ background-color: palevioletred;
+}
+header h3{ 
+  font-size:30pt;
+  background-color: palevioletred;
+}
+  #form{
+    padding:16px 32px;
+  border:none;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+
+h5 {
+  color: black;
+  text-align: center;
+}
+h2,h3 {
+  color: black; 
+  text-align: center;
+}
+
+carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+header h2 {
+  color:black;
+}
+
+.site-footer {
+   background-image: linear-gradient(#02d1a1, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+ /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); */
+  color: purple;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+.navbar{
+  font-family: Arial, Helvetica, sans-serif;  }
+  
+  .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: palevioletred;
+  }
+  
+
+  
+  
+  h6 {
+    font-size: 20px;
+    line-height: 33px !important;
+    color: #fff
+   
+  }
+  h6::after {
+    font-size: 20px;
+    line-height: 33px !important;
+    color: #fff
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+   .container{
+     background-color: #c4eeec;
+   }
+   .subscription.bg-white {
+    background: none
+}
+
+
+
+.subscription.bg-white .subscription-wrapper {
+    background: #fff
+}
+
+.subscription-wrapper {
+    border-radius: 0% 5% 10% 3%/10% 20% 0% 17%;
+    -webkit-transform: perspective(1800px) rotateY(20deg) skewY(1deg) translateX(50px);
+    transform: perspective(1800px) rotateY(20deg) skewY(1deg) translateX(50px);
+    padding: 70px 50px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(80deg, #0030cc 0%, #00a4db 100%);
+    position: absolute;
+    top: 100px
+}
+
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
+}
+
+.subscription-content {
+    -webkit-transform: skewY(-1deg);
+    transform: skewY(-1deg)
+}
+
+.h3 {
+    font-size: 30px
+}
+
+.flex-fill {
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important
+}
+
+.subscription.bg-white .form-control {
+    border: 1px solid #ebebeb !important
+}
+
+.subscription-wrapper .form-control {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 45px
+}
+
+.subscription-wrapper .form-control:focus {
+    background: rgba(255, 255, 255, 0.1);
+    outline: 0;
+    box-shadow: none
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+.btn-primary {
+    border: 0;
+    color: #fff
+}
+
+.btn {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    padding: 18px 45px;
+    border-radius: 45px;
+    font-weight: 500;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden
+}
+
+.btn-primary:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102%;
+    height: 100%;
+    background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+    z-index: -1;
+    transition: ease 0.3s
+}
+.card {
+  box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+  transition: 0.8s;
+  background: #333;
+  ;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 7px !important
+}
+
+.card-header,
+.card-footer {
+  border-radius: 7px !important
+}
+.card:after {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  pointer-events: none
+}
+
+.card-title img {
+  z-index: 99999 !important
+}
+
+.card .layer {
+  position: absolute;
+  top: calc(100% - 5px);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  left: 0;
+  z-index: 1;
+  transition: 0.5s
+}
+
+.card:hover {
+  box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5)
+}
+
+.card:hover hr {
+  background-color: #fff
+}
+
+.card:hover h4 {
+  font-weight: 600
+}
+
+.card:hover p {
+  font-weight: 600
+}
+
+.card:hover small {
+  font-weight: 600
+}
+
+.card:hover .layer {
+  top: 0
+}
+
+.card .content {
+  position: relative;
+  z-index: 2
+}
+
+.card .content .img-1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white !important
+}
+
+.card h4 {
+  color: #fff;
+  font-weight: 500
+}
+
+hr {
+  background-color: rgb(117, 117, 117);
+  width: 80% !important;
+  transition: 1s
+}
+
+.bold {
+  font-weight: 500
+}
+
+#quotes {
+  opacity: 0.1;
+  filter: alpha(opacity=40)
+}
+
+@media (max-width: 479px) {
+  p {
+      padding: 0 !important
+  }
+
+  .img-1 {
+      margin-right: 0 !important
+  }
+}
