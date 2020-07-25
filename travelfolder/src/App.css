@@ -9,7 +9,7 @@ h1, h2, h3, h5 {
 }
 
 .bg {
-  background-image: url("/img/dccity.jpg");
+  background-image: url("./img/dccity.jpg");
 
   height: auto;
   width: auto;

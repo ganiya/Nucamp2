@@ -1,5 +1,17 @@
 import React from 'react';
-import adventure from "../img/adventure.jpeg"
+import adventure from "../img/adventure.jpeg" ;
+import beach1 from "../img/beach1.jpeg" ;
+import orleans from "../img/orleans.jpeg" ;
+import antelope from "../img/antelope.jpg" ;
+import beach2 from "../img/beach2.jpg" ;
+import harborsc from "../img/harborsc.jpg" ;
+import dccity from "../img/dccity.jpg" ;
+import Havasu from "../img/Havasu-Falls.jpg" ;
+import vermont from "../img/vermont.jpg" ;
+import quote2 from "../img/quote2.jpg" ;
+import quote1 from "../img/quote1.jpg" ;
+import lacity from "../img/lacity.jpg" ;
+
 
 function Home() {
     return (
@@ -12,13 +24,13 @@ function Home() {
                     </div>
                 </div>
                 <div className="column">
-                    <img src="img/beach1.jpeg" alt="Forest" className="image" style={{ width: '100%' }} />
+                    <img src={beach1} alt="Forest" className="image" style={{ width: '100%' }} />
                     <div className="middle">
                         <div className="text">RELAX</div>
                     </div>
                 </div>
                 <div className="column">
-                    <img src="img/orleans.jpeg" alt="Mountains" className="image" style={{ width: '100%' }} />
+                    <img src={orleans} alt="Mountains" className="image" style={{ width: '100%' }} />
                     <div className="middle">
                         <div className="text">PARTY</div>
                     </div>
@@ -66,25 +78,25 @@ function Home() {
 
             <div className="row">
                 <div className="col-lg-3 col-md-12 mb-4">
-                    <img src="/img/quote1.jpg" className="img-fluid mb-4" alt="LA city" />
-                    <img src="/img/dccity.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.3s" />
-                    <img src="/img/Havasu-Falls.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.4s" />
+                    <img src={quote1} className="img-fluid mb-4" alt="LA city" />
+                    <img src={dccity} className="img-fluid mb-4" alt="" data-wow-delay="0.3s" />
+                    <img src={Havasu} className="img-fluid mb-4" alt="" data-wow-delay="0.4s" />
                 </div>
                 <div className="col-lg-3 col-md-12 mb-4">
-                    <img src="/img/harborsc.jpg" className="img-fluid mb-4" alt="LA city" />
-                    <img src="/img/lacity.jpg" className="img-fluid mb-4" alt="LA city" />
+                    <img src={harborsc} className="img-fluid mb-4" alt="LA city" />
+                    <img src={lacity} className="img-fluid mb-4" alt="LA city" />
                 </div>
                 <div className="col-lg-3 col-md-12 mb-4">
-                    <img src="img/quote2.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.3s" />
-                    <img src="img/beach2.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.5s" />
+                    <img src={quote2} className="img-fluid mb-4" alt="" data-wow-delay="0.3s" />
+                    <img src={beach2} className="img-fluid mb-4" alt="" data-wow-delay="0.5s" />
 
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4">
 
-                    <img src="img/antelope.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.1s" />
+                    <img src={antelope} className="img-fluid mb-4" alt="" data-wow-delay="0.1s" />
 
-                    <img src="/img/vermont.jpg" className="img-fluid mb-4" alt="" data-wow-delay="0.4s" />
+                    <img src={vermont} className="img-fluid mb-4" alt="" data-wow-delay="0.4s" />
 
 
                 </div>
